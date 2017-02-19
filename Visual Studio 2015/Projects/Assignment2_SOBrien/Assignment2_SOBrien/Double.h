@@ -6,15 +6,15 @@ using namespace std;
 class Double
 {
 private:
-	double d;
+	double dub;
 public:
-	void equals(double dub);
+	void equals(double d);
 	Double add(const Double &d);
 	Double sub(const Double &d);
 	Double mul(const Double &d);
 	Double div(const Double &d);
 	double toDouble();
-	void printDouble();
+	
 };
 
 #endif

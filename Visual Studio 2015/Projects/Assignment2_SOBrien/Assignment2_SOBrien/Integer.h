@@ -14,7 +14,7 @@ public:
 	Integer mul(const Integer &n);
 	Integer div(const Integer &n);
 	int toInt();
-	void printInteger();
+
 };
 
 #endif

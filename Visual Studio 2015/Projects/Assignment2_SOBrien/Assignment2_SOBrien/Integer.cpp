@@ -5,7 +5,8 @@ using namespace std;
 
 void Integer::equals(int n)
 {
-	int num = n;
+	num = n;
+	
 }
 
 Integer Integer::add(const Integer&n)
@@ -36,9 +37,5 @@ Integer Integer::div(const Integer &n)
 }
 int Integer::toInt()
 {
-
-}
-void Integer::printInteger()
-{
-	cout << num << endl;
+	return num;
 }

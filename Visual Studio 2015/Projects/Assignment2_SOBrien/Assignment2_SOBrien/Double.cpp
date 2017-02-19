@@ -3,36 +3,40 @@
 
 using namespace std;
 
-void Double::equals(double dub)
+void Double::equals(double d)
 {
-	double d = dub;
+	dub = d;
 }
 
 Double Double::add(const Double &d)
 {
-	
+	Double tmp;
+	tmp.dub = dub + d.dub;
+	return tmp;
 }
 
 Double Double::sub(const Double &d)
 {
-
+	Double tmp;
+	tmp.dub = dub - d.dub;
+	return tmp;
 }
 
 Double Double::mul(const Double &d)
 {
-
+	Double tmp;
+	tmp.dub = dub*d.dub;
+	return tmp;
 }
 Double Double::div(const Double &d)
 {
-
+	Double tmp;
+	tmp.dub = dub / d.dub;
+	return tmp;
 }
 
 double Double::toDouble()
 {
-
+return dub;
 }
 
-void Double::printDouble()
-{
-	cout << d << endl;
-}
